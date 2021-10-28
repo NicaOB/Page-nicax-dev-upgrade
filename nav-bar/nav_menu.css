@@ -28,6 +28,9 @@
     font-size: 48px;
 }
 .nav__button-close-window{
+    width: 37px;
+    height: 37px;
+    background-image: url(./images/close-icon.svg);
     align-self: flex-end;
     margin: 37px 37px 80px 0;
     border: none;

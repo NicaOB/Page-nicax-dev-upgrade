@@ -4,7 +4,6 @@ function openMenu(header){
     const menu = `
      <div class="nav__content">
          <button class="nav__button-close-window">
-             <img src="./images/close-icon.svg" alt="">
          </button>
          <div class="nav__link-content">
              <a href="" class="nav__link">Portfolio</a>
@@ -18,6 +17,8 @@ function openMenu(header){
     etiq.setAttribute("style", "display: inherit");
     const hideIcon = document.querySelector(".header__nav");
     hideIcon.setAttribute("style", "display: none");
+    const center = document.querySelector(".header__content");
+    center.setAttribute("style", "justify-content: center")
 }
 
 function closeMenu(){
@@ -26,5 +27,7 @@ function closeMenu(){
     const navMenu = document.querySelector(".nav");
     if(navMenu){
         navMenu.remove()
+        const center = document.querySelector(".header__content");
+        center.removeAttribute("style")
     }
 }
