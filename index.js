@@ -1,14 +1,12 @@
 function main(){
-    var navMenu = document.querySelector(".header")
-    var buttonOpen = document.querySelector(".nav__button-open-window");
-    buttonOpen.addEventListener("click", ()=>{
-        openMenu(navMenu);
-        var buttonClose = document.querySelector(".nav__button-close-window");
-        buttonClose.addEventListener("click", () =>{
-        closeMenu();
+    const buttonOpenMenu = document.querySelector(".nav__button-open-window");
+    buttonOpenMenu.addEventListener("click", ()=>{
+        menuHamburgerOpen();
     })
+    const buttonCloseMenu = document.querySelector(".nav-mobile__button-close-window");
+    buttonCloseMenu.addEventListener("click", ()=>{
+        menuHamburgerClose();
     })
-    
 }
 
 main();

@@ -214,6 +214,14 @@ body{
     height: 45px;
     border: none;
     border-radius: 4px;
+    
+}
+.form-contact__send-form:hover{
+    background-color: rgb(31, 29, 29);
+}
+.form-contact__send-form:active{
+    background-color: rgb(45, 37, 53);
+    border: solid grey;
 }
 @media (min-width:960px){
     .section-contact__content{
