@@ -5,7 +5,7 @@
     <img class="logo" src="./images/image-logo.png" alt="">
     <div class="header__nav">
         <button class="nav__button-open-window">
-            <img src="./images/icon-button-nav.svg" alt="">
+            <img src="./components/header/images/icon-open-nav.svg" alt="">
         </button>
     </div>
     <nav class="nav-desktop">
@@ -19,6 +19,7 @@
     <nav class="nav-mobile">
         <div class="nav-mobile__content">
         <button class="nav-mobile__button-close-window">
+            <img src="./components/header/images/icon-close-nav.svg" alt="">
         </button>
         <div class="nav-mobile__link-content">
             <a href="" class="nav-mobile__link">Portfolio</a>

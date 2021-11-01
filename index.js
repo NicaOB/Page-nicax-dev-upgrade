@@ -9,6 +9,7 @@ function main(){
         menuHamburgerClose();
     })
     loadFooter(body);
+    loadContact(body);
 }
 
 main();

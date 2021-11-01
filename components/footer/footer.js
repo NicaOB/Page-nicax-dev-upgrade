@@ -7,19 +7,19 @@ function loadFooter(body) {
          <div class="footer__instagram">
              <a class="link-social-network" href="https://www.instagram.com/nucax9/?hl=es">
                  <span class="span-social-network">Instagram</span>
-                 <img class="image-social-network" src="./images/instagram.svg" alt="">
+                 <img class="image-social-network" src="./components/footer/images/instagram.svg" alt="">
              </a>
          </div>   
          <div class="footer__linkedin">
              <a class="link-social-network" href="">
-                 <span class="span-social-network">Linkedin</span>
-                 <img class="image-social-network" src="./images/linkedin.svg" alt="">
+             <span class="span-social-network">Linkedin</span>
+             <img class="image-social-network" src="./components/footer/images/linkedin.svg" alt="">
              </a>
          </div>
          <div class="footer__github">
              <a class="link-social-network"href="https://github.com/NicaOB">
                  <span class="span-social-network">Github</span>
-                 <img class="image-social-network" src="./images/github.svg" alt="">
+                 <img class="image-social-network" src="./components/footer/images/github.svg" alt="">
              </a>
          </div>
     </div>
