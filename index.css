@@ -16,49 +16,6 @@ body{
         height: 60px;
     }
 }
-/* AQUI COMIENZA NAVBAR */
-.header{
-    position: absolute;
-    width: 100%;
-}
-.header__nav{
-    height: 30px;
-}
-.header__content{
-    margin-top: 24px;
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 37px 0 37px;
-    align-items: center;
-}
-.nav-desktop{
-    display: none;
-}
-.nav-desktop__content{
-    display: flex;
-    justify-content: space-around;
-    width: 451px;
-}
-.nav-desktop__link{
-    text-decoration: none;
-    color: white;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 24px;
-}
-@media (min-width: 960px){
-    .nav__button-open-window{
-        display: none;
-    }
-    .nav-desktop{
-        display: initial;
-    }
-    .header__content{
-        justify-content: space-between;
-        margin: 50px 80px 0 80px;
-    }
-}
-/* AQUI TERMINA NAVBAR */
 .main__content{
     color: white;
     font-family: 'Montserrat';
@@ -240,47 +197,5 @@ body{
     }
     .form-contact__send-form{
         width: 367px;
-    }
-}
-/* FOOTER */
-.footer__content{
-    background-color: rgba(44, 44, 44, 1);
-    height: 498px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.footer__social-networks{
-    margin-top: 36px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 13px;
-}
-.link-social-network{
-    display: flex;
-    gap: 10px;
-    text-decoration: none;
-    color: white;
-}
-.span-social-network{
-    font-family: 'Poppins';
-    font-size: 16px;
-    font-weight: 400;
-}
-.image-social-network{
-    height: 27px;
-    width: 27px;
-}
-@media (min-width: 960px){
-    .footer__content{
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 80px;;
-    }
-    .footer__social-networks{
-        align-items: flex-end;
     }
 }
