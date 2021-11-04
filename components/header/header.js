@@ -10,6 +10,7 @@
     </div>
     <nav class="nav-desktop">
         <div class="nav-desktop__content">
+            <a href="./index.html" class="nav-desktop__link">Inicio</a>
             <a href="./portfolio.html" class="nav-desktop__link">Portfolio</a>
             <a href="./servicios.html" class="nav-desktop__link">Servicios</a>
             <a href="./contacto.html" class="nav-desktop__link">Contacto</a>
@@ -22,6 +23,7 @@
             <img src="./components/header/images/icon-close-nav.svg" alt="">
         </button>
         <div class="nav-mobile__link-content">
+            <a href="./index.html" class="nav-mobile__link">Inicio</a>
             <a href="./portfolio.html" class="nav-mobile__link">Portfolio</a>
             <a href="./servicios.html" class="nav-mobile__link">Servicios</a>
             <a href="./contacto.html" class="nav-mobile__link">Contacto</a>
@@ -31,6 +33,7 @@
     `;
     const body = document.body;
     body.prepend(header)
+    mainPage();
 })();
 
 function menuHamburgerOpen() {
@@ -43,4 +46,8 @@ function menuHamburgerClose(){
     document.querySelector(".nav-mobile").setAttribute("style", "display: none");
     document.querySelector(".nav__button-open-window").removeAttribute("style");
     document.querySelector(".header__content").removeAttribute("style");
+}
+
+function mainPage(){
+    
 }

@@ -8,5 +8,4 @@ function main(){
         menuHamburgerClose();
     })
 }
-
 main();
