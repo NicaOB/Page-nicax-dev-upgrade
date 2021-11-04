@@ -16,6 +16,12 @@ body{
     width: 150px;
     height: 50px;
 }
+@media(min-width: 960px){
+    .logo{
+        width: 200px;
+        height: 60px;
+    }
+}
 .section-welcome{
     display: none;
 }

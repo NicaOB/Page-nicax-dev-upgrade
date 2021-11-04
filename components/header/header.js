@@ -12,7 +12,7 @@
         <div class="nav-desktop__content">
             <a href="./portfolio.html" class="nav-desktop__link">Portfolio</a>
             <a href="./servicios.html" class="nav-desktop__link">Servicios</a>
-            <a href="" class="nav-desktop__link">Contacto</a>
+            <a href="./contacto.html" class="nav-desktop__link">Contacto</a>
         </div>
     </nav>
     </div>
@@ -24,7 +24,7 @@
         <div class="nav-mobile__link-content">
             <a href="./portfolio.html" class="nav-mobile__link">Portfolio</a>
             <a href="./servicios.html" class="nav-mobile__link">Servicios</a>
-            <a href="" class="nav-mobile__link">Contacto</a>
+            <a href="./contacto.html" class="nav-mobile__link">Contacto</a>
         </div>
         </div>
     </nav>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.title-page{
+    font-size: 48px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-bottom: 104px;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+}
+@media(min-width: 960px){
+    .logo{
+        width: 200px;
+        height: 60px;
+    }
+}
+.section-welcome{
+    display: none;
+}
+.section-welcome__content{
+    background: linear-gradient(to right, #b92b27, #1565c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 655px;
+}
+@media (min-width:960px){
+    .section-welcome{
+        display: initial;
+    }
+    .section-welcome__content{
+        display: flex;
+        align-items: center;
+    }
+    .media-desktop{
+        margin: 0 0 0 85px;
+        color: white;
+    }
+}
+/* servicios */
+.portfolio-content{
+    padding-top: 120px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-content__proyect{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio-content__image{
+    width: 290px;
+    height: 127px;
+}
+.portfolio-content__title-job{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+    margin: 9px 0 0 0;
+}
+.portfolio-content__text-job{
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin: 8px 0 0 0;
+    text-align: center;
+    width: 262px;
+    height: 125px;
+}
+.portfolio-content__link-proyect{
+    color: rgba(252, 111, 80, 1);
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+@media (min-width:960px){
+    .media-mobile{
+        display: none;
+    }
+    .portfolio-content{
+        flex-direction: row;
+        flex-wrap: wrap;    
+        justify-content: center;
+        padding-top: 0px;
+    }
+    .portfolio-content__proyect{
+        margin: 53px 73px;
+    }
+}
