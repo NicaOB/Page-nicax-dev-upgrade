@@ -1,4 +1,4 @@
-function loadFooter(body) {
+(function loadFooter() {
     const footer = document.createElement("footer");
     footer.classList.add("footer");
     footer.innerHTML = `<div class="footer__content">
@@ -24,5 +24,6 @@ function loadFooter(body) {
          </div>
     </div>
     </div>`;
+    const body = document.body;
     body.appendChild(footer);
-}
+})();

@@ -10,8 +10,8 @@
     </div>
     <nav class="nav-desktop">
         <div class="nav-desktop__content">
-            <a href="" class="nav-desktop__link">Portfolio</a>
-            <a href="" class="nav-desktop__link">Servicios</a>
+            <a href="./portfolio.html" class="nav-desktop__link">Portfolio</a>
+            <a href="./servicios.html" class="nav-desktop__link">Servicios</a>
             <a href="" class="nav-desktop__link">Contacto</a>
         </div>
     </nav>
@@ -22,8 +22,8 @@
             <img src="./components/header/images/icon-close-nav.svg" alt="">
         </button>
         <div class="nav-mobile__link-content">
-            <a href="" class="nav-mobile__link">Portfolio</a>
-            <a href="" class="nav-mobile__link">Servicios</a>
+            <a href="./portfolio.html" class="nav-mobile__link">Portfolio</a>
+            <a href="./servicios.html" class="nav-mobile__link">Servicios</a>
             <a href="" class="nav-mobile__link">Contacto</a>
         </div>
         </div>

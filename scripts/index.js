@@ -1,5 +1,4 @@
 function main(){
-    const body = document.body;
     const buttonOpenMenu = document.querySelector(".nav__button-open-window");
     buttonOpenMenu.addEventListener("click", ()=>{
         menuHamburgerOpen();
@@ -8,8 +7,6 @@ function main(){
     buttonCloseMenu.addEventListener("click", ()=>{
         menuHamburgerClose();
     })
-    loadFooter(body);
-    loadContact(body);
 }
 
 main();

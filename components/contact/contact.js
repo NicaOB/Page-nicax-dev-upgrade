@@ -1,4 +1,4 @@
-function loadContact(body){
+(function loadContact(){
     const contact = document.createElement("section");
     contact.classList.add("section-contact");
     contact.innerHTML = `<div class="section-contact__content">
@@ -21,6 +21,7 @@ function loadContact(body){
         </div>
     </form>
     </div>`;
+    const body = document.body;
     const footer = document.querySelector(".footer");
     body.insertBefore(contact, footer)
-}
+})();
