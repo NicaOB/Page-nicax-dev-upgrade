@@ -1,5 +1,5 @@
 .section-contact__content{
-    background-color: black;
+    background-color: rgba(20, 20, 20, 1);
     color: white;
     display: flex;
     flex-direction: column;

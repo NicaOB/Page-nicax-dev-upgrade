@@ -32,9 +32,20 @@
     </nav>
     `;
     const body = document.body;
-    body.prepend(header)
-    mainPage();
+    body.prepend(header);
+    logicButton();
 })();
+
+function logicButton(){
+    const buttonOpenMenu = document.querySelector(".nav__button-open-window");
+    buttonOpenMenu.addEventListener("click", ()=>{
+        menuHamburgerOpen();
+    })
+    const buttonCloseMenu = document.querySelector(".nav-mobile__button-close-window");
+    buttonCloseMenu.addEventListener("click", ()=>{
+        menuHamburgerClose();
+    })
+}
 
 function menuHamburgerOpen() {
     document.querySelector(".nav-mobile").setAttribute("style", "display: inherit");
@@ -46,8 +57,4 @@ function menuHamburgerClose(){
     document.querySelector(".nav-mobile").setAttribute("style", "display: none");
     document.querySelector(".nav__button-open-window").removeAttribute("style");
     document.querySelector(".header__content").removeAttribute("style");
-}
-
-function mainPage(){
-    
 }
