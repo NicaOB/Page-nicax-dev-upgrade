@@ -50,7 +50,7 @@
     width: 100%;
 }
 .nav-mobile__content{
-    background-color: #161616;
+    background-color: rgba(44, 44, 44, 0.96);;
     height: 555px;
     margin-top: 20px;
     display: flex;
