@@ -30,7 +30,6 @@ function getProyects(){
             return obj.json();
         })
         .then((objJSON) => {
-            console.log(objJSON);
             putProyects(objJSON);
         });
 }

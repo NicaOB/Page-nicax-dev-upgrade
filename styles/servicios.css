@@ -6,6 +6,9 @@
 body{
     margin: 0;
 }
+.pos{
+    display: none;
+}
 .title-page{
     font-size: 48px;
     font-family: 'Montserrat';
@@ -21,6 +24,9 @@ body{
         width: 200px;
         height: 60px;
     }
+}
+.max-width-el{
+    max-width: 330px;
 }
 .section-welcome{
     display: none;
@@ -46,21 +52,27 @@ body{
 /* servicios */
 .service-content{
     padding-top: 120px;
-    background-color: #000000;
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .service-content__service-info{
+    background-color: rgba(44, 44, 44, 0.30);
     margin: 30px;
     display: flex;
-    justify-content: center;
+    min-height: 530px;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
+    transition: background-color 0.5s;
+}
+.service-content__service-info:hover{
+    background-color: rgba(44, 44, 44, 0.80);
 }
 .service-content__image{
-    width: 290px;
     height: 127px;
 }
 .service-content__title-job{
@@ -74,8 +86,6 @@ body{
     font-weight: 400;
     margin: 8px 0 0 0;
     text-align: center;
-    width: 262px;
-    height: 125px;
 }
 @media (min-width:960px){
     .media-mobile{

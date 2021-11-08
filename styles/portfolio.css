@@ -23,13 +23,13 @@ body{
     }
 }
 .max-width-el{
-    max-width: 300px;
+    max-width: 330px;
 }
 .section-welcome{
     display: none;
 }
 .section-welcome__content{
-    background: linear-gradient(to right, #3494e6, #ec6ead);
+    background: linear-gradient(to right, #5b86e5, #36d1dc);
     width: 100%;
     height: 655px;
 }
@@ -49,7 +49,7 @@ body{
 /* servicios */
 .portfolio-content{
     padding-top: 120px;
-    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
     color: white;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ body{
     background-color: rgba(44, 44, 44, 0.30);
     margin: 30px;
     display: flex;
-    min-height: 470px;
+    min-height: 530px;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
@@ -102,8 +102,6 @@ body{
         flex-wrap: wrap;    
         justify-content: center;
         padding-top: 0px;
-        border-top: solid #fc5c7d;
-        border-bottom: solid #6a82fb;
     }
     .portfolio-content__proyect{
         margin: 53px 73px;
